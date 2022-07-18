@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <style>
+            body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+            .grid-container
+            {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-gap: 5px;
+                background-color: #2196F3;
+                padding: 5px;
+            }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+}
+h1 {
+  width: 200px;
+  height: 120px;
+padding: 0.15px 10px;
+  position: relative;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1100px;}
+  
+}
+
+</style>
+      <title>
+            FakeShopSite
+        </title>
+   </head>
+    <form>
+        <div id="items_table">
+        <body bgcolor="maroon">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <image src="jj.jpg" height="150px" width="1500px" align="center">
+                <font color=white align="right" size="72">
+                <h1>FakeShop</h1>
+                </font>
+                </image>
+        <div class="grid-container">
+        <div class="grid-item">
+        <a href="staple.html">
+            <img src="PngItem_170597.png" height="200px" width="200px">
+            <h2>Staples</h2>
+        </a>
+            </div>
+            <div class="grid-item">
+        <a href="household.html">
+            <img src="b77cfb22.jpg" height="200px" width="200px">
+            <h2>Household Care</h2>
+        </a></div>
+            <div class="grid-item">
+            <a href="personalcare.html">
+            <img src="personal.jpg" height="200px" width="200px">
+            <h2>Personal Care</h2>
+        </a>
+    </div>
+            <div class="grid-item">
+            <a href="snacks.html">
+            <img src="snack.png" height="200px" width="200px">
+            <h2>Snacks and 
+                Packaged Food</h2>
+        </a>
+    </div>
+</div>
+        </body>
+        </div>
+</form>
+</html>
